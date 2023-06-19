@@ -407,11 +407,17 @@
 
         <form action="https://formsubmit.co/cccaa7ded08ac9a3021955bc039a5ff8" method="POST" enctype=”text/plain” name=”EmailForm>
 
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="number" placeholder="number" class="box">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
 
-            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="text" name="Name" placeholder="name" class="box">
+            <input type="email" name="Email" placeholder="email" class="box">
+            <input type="number" name="Number" placeholder="number" class="box">
+
+            <textarea name="" name="Message" placeholder="message" id="" cols="30" rows="10"></textarea>
 
             <input type="submit" class="btn" value="Send Email">
 
