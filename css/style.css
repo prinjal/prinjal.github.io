@@ -21,9 +21,9 @@ html{
     scroll-behavior: smooth;
 }
 
-a{
+/* a{
     cursor: none;
-}
+} */
 
 body{
     background: #fcf2e8;
@@ -393,7 +393,7 @@ header .follow a:hover{
 }
 
 .experience .box-container{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
@@ -437,11 +437,16 @@ header .follow a:hover{
     color:#111;
 }
 
-.experience .box-container .box .content p{
+.experience .box-container .box .content h3 .links {
+    color: #2886E3;
+}
+
+.experience .box-container .box .content ul#bullet{
     font-size: 1.7rem;
     color:#666;
     line-height: 1.8;
     text-transform: none;
+    padding: 0 1rem;
 }
 
 .portfolio .box-container{
