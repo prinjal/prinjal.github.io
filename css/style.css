@@ -2,6 +2,7 @@
 
 :root{
     --main-color:#e38528;
+    --links-color:#2886E3;
 }
 
 *{
@@ -39,6 +40,10 @@ body{
     align-items: center;
     justify-content: center;
 } */
+
+.links {
+    color: var(--links-color);
+}
 
 section{
     padding: 5rem 5%;
@@ -435,10 +440,6 @@ header .follow a:hover{
     font-size: 2.5rem;
     padding:.5rem 0;
     color:#111;
-}
-
-.experience .box-container .box .content h3 .links {
-    color: #2886E3;
 }
 
 .experience .box-container .box .content ul#bullet{
