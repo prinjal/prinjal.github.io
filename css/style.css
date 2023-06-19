@@ -220,7 +220,7 @@ header .follow a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
 }
 
 .about .row-1 .image{
