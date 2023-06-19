@@ -267,6 +267,10 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
+#email{
+    text-transform: none;
+}
+
 .about .row-2{
     display: flex;
     flex-wrap: wrap;
@@ -307,7 +311,7 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:95%;
+    width:70%;
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
