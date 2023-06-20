@@ -648,13 +648,13 @@ header .follow a:hover{
         display: initial;
     }
 
-    /* header{
+    header{
         left:-120%;
     }
 
     header.active{
         left:0%;
-    } */
+    }
 
     .cursor-1,
     .cursor-2{
