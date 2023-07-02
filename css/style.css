@@ -450,6 +450,10 @@ header .follow a:hover{
     padding: 0 1rem;
 }
 
+.experience .box-container .box .content ul#bullet li{
+    text-transform: none;
+}
+
 .portfolio .box-container{
     display: flex;
     flex-wrap: wrap;
