@@ -442,16 +442,20 @@ header .follow a:hover{
     color:#111;
 }
 
+.experience .box-container .box .content li{
+    text-transform: none;
+}
+
+.experience .box-container .box .content li a{
+    text-transform: none;
+}
+
 .experience .box-container .box .content ul#bullet{
     font-size: 1.7rem;
     color:#666;
     line-height: 1.8;
-    text-transform: none;
+    text-transform:lowercase;
     padding: 0 1rem;
-}
-
-.experience .box-container .box .content ul#bullet li{
-    text-transform: none;
 }
 
 .portfolio .box-container{
